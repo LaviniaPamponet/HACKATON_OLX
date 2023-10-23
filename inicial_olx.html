@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estiloolx2.css">
+</head>
+<body>
+    <header>
+        <img src="logoolx.png" alt="Logo">
+        <input type="text" placeholder="Buscar">
+        <button><i class="fas fa-briefcase"></i> Plano Profissional</button>
+        <button><i class="far fa-square"></i> Meus Anúncios</button>
+        <button><i class="far fa-comment-alt"></i> Chat</button>
+        <button><i class="far fa-bell"></i> Notificações</button>
+        <button>Entrar</button>
+        <button>Anunciar</button>
+    </header>
+    <div class="product-container">
+        <h1>Vende-se Impressora HP 2546</h1>
+        <div class="images">
+            <img src="C:\Users\lavinia.pamponet\Downloads\impressora.jpg" alt="Produto" class="product-image">
+        
+            <div class="image-group">
+                <img src="C:\Users\lavinia.pamponet\Downloads\impressora1.jpg" alt="Imagem 1" class="image">
+                <img src="C:\Users\lavinia.pamponet\Downloads\impressora2.jpg" alt="Imagem 2" class="image">
+                <img src="C:\Users\lavinia.pamponet\Downloads\impressora3.jpg" alt="Imagem 3" class="image">
+                <img src="C:\Users\lavinia.pamponet\Downloads\impressora4.jpg" alt="Imagem 4" class="image">
+            </div>
+        </div>
+        <h2>R$ 150,00</h2>
+        <h3>R$ 100,00</h3>
+        
+        <p>Descrição: Semi-nova, acompanha cartuchos</p>
+        <p class="view-description">Ver descrição completa</p>
+        <div class="buttons">
+            <button class="favorite-button">Favoritar ❤️</button>
+            <button class="share-button">Compartilhar 📤</button>
+            <button class="report-button">Denunciar 🚩</button>
+        </div>
+        <p class="details">Detalhes</p>
+        <p>Categoria: Escritório</p>
+        <p>Tipo: Impressora</p>
+        <p>Marca: HP</p>
+        <p>Localização: Bahia</p>
+        <p>Tempo de uso: 2 anos e 3 meses</p>
+        <p>Disponibilidade: Retirada no local</p>
+        <div class="rating">
+            <p>Estado Físico: ★★★★★</p>
+            <p>Funcionalidade: ★★★★☆</p>
+            <p>Conservação: ★★★★☆</p>
+        </div>
+        <div class="comments">
+            <h4>Comentários</h4>
+            <ul>
+                <li><strong>Ana Paula:</strong> Qual o estado do cartucho?</li>
+                <li><strong>Carla:</strong> Acompanha manual de uso?</li>
+                <li><strong>Anunciante:</strong> Cartuchos carregados</li>
+            </ul>
+            <input id="new-comment-name" placeholder="Seu Nome">
+            <input id="new-comment-content" placeholder="Adicione um novo comentário">
+            <button id="add-comment-button">Adicionar Comentário</button>
+        </div>
+    </div>
+
+
+    <script>
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+              var myLandbot = new Landbot.Livechat({
+                configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1750330-P7GRRL1KT10HBN5M/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        </script>
+    <script src="jsolx2.js"></script>
+</body>
+</html>
